@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 2rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacion ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+li a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+a:hover {
+  background: #e56353;
+}
+
+.main {
+  padding-top: 5rem;
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+}
+
+.principal {
+  background-image: url("../../assets/img/post-image.jpg");
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+
+.principal h1 {
+  font-size: 70px;
+}
+
+.botones {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.btn {
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.btn-color {
+  color: white;
+  background-color: #6c6e70;
+}
+
+.naomi {
+  display: inline-block;
+  float: left;
+  margin-top: 15px;
+}
+
+.maomi img {
+  width: 70;
+  height: 80px;
+}
+
+.network {
+  display: inline-block;
+  float: left;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.network p {
+  background-color: white;
+  color: #ecbcba;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

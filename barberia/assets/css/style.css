@@ -1,0 +1,43 @@
+.header {
+  background-color: black;
+  color: white;
+  padding: 2rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacion ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+li a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+a:hover {
+  background: rgba(204, 204, 204, 0.761);
+}
+
+.main {
+  padding-top: 5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
